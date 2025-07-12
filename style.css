@@ -1,0 +1,87 @@
+/* style.css */
+
+body {
+    font-family: 'Segoe UI', 'BIZ UDGothic', 'Meiryo', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #F8F8FF; /* ゴーストホワイト */
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50; /* 緑 */
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+    color: #333;
+}
+
+main {
+    padding: 20px;
+    max-width: 960px;
+    margin: 20px auto;
+    background-color: #FFFFFF; /* 白 */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+section {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+section:last-child {
+    border-bottom: none;
+}
+
+.about-me p, .contact p {
+    font-size: 1.1em;
+}
+
+.project-item {
+    background-color: #F0FFF0; /* ホットピンク */
+    border: 1px solid #e0e0e0;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.project-item h3 {
+    color: #2E8B57; /* シーグリーン */
+    margin-top: 0;
+}
+
+a {
+    color: #007BFF; /* 青 */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    margin-top: 30px;
+}
+
+/* フリガナのスタイル */
+ruby {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+rt {
+    font-size: 0.7em; /* フリガナのサイズを小さく */
+    line-height: 1;
+}
