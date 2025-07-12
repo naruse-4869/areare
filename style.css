@@ -45,7 +45,7 @@ section:last-child {
 }
 
 .project-item {
-    background-color: #F0FFF0; /* ホットピンク */
+    background-color: #f3e2f5; /* ホットピンク */
     border: 1px solid #e0e0e0;
     padding: 15px;
     margin-bottom: 15px;
@@ -53,7 +53,7 @@ section:last-child {
 }
 
 .project-item h3 {
-    color: #2E8B57; /* シーグリーン */
+    color: #f5b1aa; /* サンゴ色 */
     margin-top: 0;
 }
 
