@@ -3,36 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>JavaScriptで背景色変更</title>
-  <style>
-    body {
-      transition: background-color 0.5s ease; /* スムーズな色の変化のために */
-    }
-    button {
-      padding: 10px 20px;
-      font-size: 16px;
-      cursor: pointer;
-      margin-top: 20px;
-    }
-  </style>
-</head>
+  <title>背景色の例</title>
+  <link rel="stylesheet" href="style.css"> </head>
 <body>
-  <h1>ボタンを押して背景色を変更！</h1>
-  <button onclick="changeBackgroundColor()">背景色を変える</button>
-
-  <script>
-    function changeBackgroundColor() {
-      const colors = ['#FFCCCC', '#CCFFCC', '#CCCCFF', '#FFFFCC', '#FFCCFF']; // 色の配列
-      const currentColor = document.body.style.backgroundColor;
-      let newColor = colors[Math.floor(Math.random() * colors.length)];
-
-      // 現在の色と同じにならないようにする（オプション）
-      while (newColor === currentColor) {
-        newColor = colors[Math.floor(Math.random() * colors.length)];
-      }
-
-      document.body.style.backgroundColor = newColor; // bodyの背景色を変更
-    }
-  </script>
+  <h1>私の素敵なページ</h1>
+  <p>このページの背景色はCSSで設定されています。</p>
 </body>
 </html>
