@@ -84,8 +84,5 @@ ruby {
 rt {
     font-size: 0.7em; /* フリガナのサイズを小さく */
     line-height: 1;
-}
-
-rt {
-  ruby-position: over;
-}
+    ruby-position: over;
+}   
